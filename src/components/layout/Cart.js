@@ -5,7 +5,7 @@ export default function Cart(props) {
   const { cart, cartButton, toggleNav, cartTotal, cartLogic } = props;
 
   return (
-    <div className={cartButton ? "cartOverlay transparentBcg" : "cartOverlay"}>
+    <div className={cartButton ? "cart-overlay transparentBcg" : "cartOverlay"}>
       <div className={cartButton ? "cart showCart" : "cart"}>
         <span className="close-cart" onClick={toggleNav}>
           <i className="fas fa-window-close"> </i>
